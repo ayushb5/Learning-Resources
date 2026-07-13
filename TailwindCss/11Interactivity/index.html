@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <!-- hover -->
+    <button
+      class="p-2 border m-4 w-20 bg-blue-600 text-white hover:cursor-pointer hover:bg-blue-800"
+    >
+      Login
+    </button>
+    <!-- focus -->
+    <button
+      class="p-2 border m-4 w-20 bg-blue-600 text-white hover:cursor-pointer focus:bg-blue-800"
+    >
+      Login
+    </button>
+    <!-- active -->
+    <button
+      class="p-2 border m-4 w-20 bg-blue-600 text-white hover:cursor-pointer active:bg-blue-800"
+    >
+      Login
+    </button>
+    <!-- hover+active -->
+    <button
+      class="p-2 border m-4 w-20 bg-blue-600 text-white hover:cursor-pointer hover:bg-blue-800 active:bg-blue-400 active:text-black"
+    >
+      Login
+    </button>
+    <!-- group hover -->
+    <div>
+      <a class="group">
+        <h1
+          class="group-hover:bg-blue-600 group-hover:text-white hover:cursor-pointer"
+        >
+          Home
+        </h1>
+        <h1
+          class="group-hover:bg-blue-600 group-hover:text-white hover:cursor-pointer"
+        >
+          About
+        </h1>
+        <h1
+          class="group-hover:bg-blue-600 group-hover:text-white hover:cursor-pointer"
+        >
+          Contact
+        </h1>
+      </a>
+    </div>
+  </body>
+</html>
