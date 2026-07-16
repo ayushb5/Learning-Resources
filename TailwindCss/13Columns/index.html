@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Column</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <!-- note: total 12 columns -->
+    <div class="columns-4">
+      <h1 class="bg-green-400">Column 1</h1>
+      <h1 class="bg-blue-400">Column 2</h1>
+      <h1 class="bg-red-400">Column 3</h1>
+      <h1 class="bg-orange-400">Column 4</h1>
+    </div>
+    <hr class="my-4" />
+    <!-- responsive -->
+    <div class="columns-1 sm:columns-2 md:columns-3 lg:columns-4">
+      <img src="swan.jpg" alt="swan image" />
+      <img src="swan.jpg" alt="swan image" />
+      <img src="swan.jpg" alt="swan image" />
+      <img src="swan.jpg" alt="swan image" />
+      <img src="swan.jpg" alt="swan image" />
+      <img src="swan.jpg" alt="swan image" />
+      <img src="swan.jpg" alt="swan image" />
+      <img src="swan.jpg" alt="swan image" />
+    </div>
+    <hr class="my-4" />
+    <!-- Auto responsive -->
+    <div class="columns-3xs">
+      <img src="swan.jpg" alt="swan image" />
+      <img src="swan.jpg" alt="swan image" />
+      <img src="swan.jpg" alt="swan image" />
+      <img src="swan.jpg" alt="swan image" />
+      <img src="swan.jpg" alt="swan image" />
+      <img src="swan.jpg" alt="swan image" />
+      <img src="swan.jpg" alt="swan image" />
+      <img src="swan.jpg" alt="swan image" />
+    </div>
+    <!-- Auto responsive without gap-->
+    <div class="columns-3xs gap-0">
+      <img src="swan.jpg" alt="swan image" />
+      <img src="swan.jpg" alt="swan image" />
+      <img src="swan.jpg" alt="swan image" />
+      <img src="swan.jpg" alt="swan image" />
+      <img src="swan.jpg" alt="swan image" />
+      <img src="swan.jpg" alt="swan image" />
+      <img src="swan.jpg" alt="swan image" />
+      <img src="swan.jpg" alt="swan image" />
+    </div>
+  </body>
+</html>
