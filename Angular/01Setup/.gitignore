@@ -42,3 +42,36 @@ __screenshots__/
 # System files
 .DS_Store
 Thumbs.db
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Log files
+*.log
+logs/
+
+# pnpm
+.pnpm-debug.log
+
+# npm cache
+.npm/
+
+# Yarn
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# Temporary build files
+*.tsbuildinfo
+.cache/
+.eslintcache
+
+# Test outputs
+playwright-report/
+test-results/
+coverage-final.json
+.nyc_output/
+
