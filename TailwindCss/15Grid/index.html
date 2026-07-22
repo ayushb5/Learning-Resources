@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <!-- Grid with grid-cols-2 -->
+    <div class="grid grid-cols-2">
+      <div class="bg-blue-300 p-8 border"></div>
+      <div class="bg-blue-300 p-8 border"></div>
+      <div class="bg-blue-300 p-8 border"></div>
+      <div class="bg-blue-300 p-8 border"></div>
+      <div class="bg-blue-300 p-8 border"></div>
+      <div class="bg-blue-300 p-8 border"></div>
+      <div class="bg-blue-300 p-8 border"></div>
+      <div class="bg-blue-300 p-8 border"></div>
+    </div>
+    <!-- grid with grid-cols-4 and col-span-2 for particular column -->
+    <div class="grid grid-cols-2 md:grid-cols-4 mt-5">
+      <div class="bg-blue-300 p-8 border col-span-2"></div>
+      <div class="bg-blue-300 p-8 border"></div>
+      <div class="bg-blue-300 p-8 border"></div>
+      <div class="bg-blue-300 p-8 border"></div>
+      <div class="bg-blue-300 p-8 border"></div>
+      <div class="bg-blue-300 p-8 border"></div>
+      <div class="bg-blue-300 p-8 border"></div>
+      <div class="bg-blue-300 p-8 border"></div>
+    </div>
+    <!-- grid with grid-cols-4 and row-span-2 for particular row -->
+    <div class="grid grid-cols-2 md:grid-cols-4 mt-5">
+      <div class="bg-blue-300 p-8 border row-span-2"></div>
+      <div class="bg-blue-300 p-8 border"></div>
+      <div class="bg-blue-300 p-8 border"></div>
+      <div class="bg-blue-300 p-8 border"></div>
+      <div class="bg-blue-300 p-8 border"></div>
+      <div class="bg-blue-300 p-8 border"></div>
+      <div class="bg-blue-300 p-8 border"></div>
+      <div class="bg-blue-300 p-8 border"></div>
+    </div>
+  </body>
+</html>
