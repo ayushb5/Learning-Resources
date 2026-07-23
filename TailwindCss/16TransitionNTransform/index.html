@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Transition and Transform</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <div class="flex gap-3 m-10">
+      <!-- simple button -->
+      <button
+        class="p-1 bg-blue-300 hover:bg-blue-600 hover:text-white cursor-pointer"
+      >
+        Button 1
+      </button>
+      <!-- button with transition property -->
+      <button
+        class="p-1 bg-blue-300 hover:bg-blue-600 hover:text-white transition cursor-pointer"
+      >
+        Button 2
+      </button>
+      <!-- button with transition property and duration -->
+      <button
+        class="p-1 bg-blue-300 hover:bg-blue-600 hover:text-white transition duration-500 cursor-pointer"
+      >
+        Button 3
+      </button>
+      <!-- button with transition-transform property, duration, and rotate -->
+      <button
+        class="p-1 bg-blue-300 hover:bg-blue-600 hover:text-white hover:rotate-360 transition-transform duration-2000 cursor-pointer"
+      >
+        Button 4
+      </button>
+      <!-- button with transition-transform property, duration and scale -->
+      <button
+        class="p-1 bg-blue-300 hover:bg-blue-600 hover:text-white hover:scale-102 transition-transform duration-200 cursor-pointer"
+      >
+        Button 4
+      </button>
+    </div>
+
+    <div class="flex justify-center">
+      <img
+        src="swan.jpg"
+        class="h-50 w-70 hover:rotate-360 hover:scale-160 transition-transform duration-3000"
+        alt="swam image"
+      />
+    </div>
+  </body>
+</html>
