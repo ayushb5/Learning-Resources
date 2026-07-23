@@ -1,0 +1,36 @@
+<h1 class="text-4xl text-blue-500 font-semibold text-center">Data Binding</h1>
+<!-- 1 -->
+<p>1. Interpolation Example</p>
+<div class="ps-5">
+  <table>
+    <thead>
+      <tr class="flex gap-2">
+        <th>Name</th>
+        <th>Age</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="flex gap-2">
+        <td>{{ name }}</td>
+        <td>{{ age }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- 2,3 -->
+<p>2. Property Binding + 3. Event Binding</p>
+<button (click)="buttonClick()" [class]="btn">Click me</button>
+
+<!-- 4 -->
+<p>4. Two-way data binding</p>
+<input type="text" placeholder="Enter your age" [(ngModel)]="age" class="border m-5 p-2" />
+
+<p class="mt-5">City: {{ city }}</p>
+<select [(ngModel)]="city">
+  <option value="Mumbai">Mumbai</option>
+  <option value="Pune">Pune</option>
+  <option value="Bangalore">Bangalore</option>
+  <option value="Hyderabad">Hyderabad</option>
+  <option value="Chennai">Chennai</option>
+</select>
