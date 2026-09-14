@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+       http://www.springframework.org/schema/beans
+       https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- Bean definition for EmailService. Spring will create and manage an 
+		EmailService object. -->
+
+	<bean id="emailService"
+		class="com.example.springcore.beanfactory.EmailService" />
+
+	<!-- Bean definition for NotificationService. NotificationService requires 
+		EmailService. constructor-arg tells Spring to inject the emailService bean 
+		through the constructor. -->
+
+	<bean id="notificationService"
+		class="com.example.springcore.beanfactory.NotificationService">
+		<constructor-arg ref="emailService" />
+	</bean>
+	
+</beans>
