@@ -1,0 +1,39 @@
+ul {
+    list-style-type: none;
+}
+
+.container {
+    margin: 0 4px 0 4px;
+}
+
+.text-color-brown {
+    color: brown;
+}
+
+img {
+    width: 100%;
+}
+
+.card {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    width: 500px;
+    height: 400px;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.30);
+    transform: translateY(-10px);
+}
+
+.grid {
+    display: grid;
+    gap: 6px;
+}
+
+.grid-col-3 {
+    grid-template-columns: repeat(2, 1fr);
+}

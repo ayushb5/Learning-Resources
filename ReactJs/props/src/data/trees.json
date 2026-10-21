@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "Banyan Tree",
+    "src": "https://onesteptowardspeace.com/wp-content/uploads/2020/04/Untitled-design-3-min.jpg",
+    "desc": "The banyan tree is the most familiar and famous shade-giving tree in our country India. Interestingly, it originated in India itself. These Indian trees have the largest canopy coverage in India. Not many people know but the banyan tree is also the national tree of India. ",
+    "sanskritName": "VATT"
+  },
+  {
+    "id": 2,
+    "name": "Neem tree",
+    "src": "https://onesteptowardspeace.com/wp-content/uploads/2020/10/23-min-1.jpg",
+    "desc": "It is grown in both tropical and sub-tropical regions. Neem has endless medicinal properties and that’s what makes it popular in India. It is used to control pests and deal with poxviruses. Neem is a major ingredient in soaps and shampoos and is healthy for our skin. It is one of the best trees to plant near the house in India.",
+    "sanskritName": "Pakvakrita, nimbaka"
+  },
+  {
+    "id": 3,
+    "name": "Peepal tree",
+    "src": "https://onesteptowardspeace.com/wp-content/uploads/2020/10/29-min-1.jpg",
+    "desc": "The peepal tree falls in the category of dry season deciduous or semi-evergreen tree. This is one of those rare trees of India that release oxygen both in the day and the night.",
+    "sanskritName": "Bodhivruksha"
+  },
+  {
+    "id": 4,
+    "name": "Arjuna tree",
+    "src": "https://onesteptowardspeace.com/wp-content/uploads/2020/10/28-min-1.jpg",
+    "desc": "Arjuna tree is generally found around river beds. It is not difficult to spot one. Arjuna exhibits yellow flowers from March to June. It has a woody fibrous fruit that appears between September and November.",
+    "sanskritName": "Arjuna"
+  },
+  {
+    "id": 5,
+    "name": "Sal Tree",
+    "src": "https://onesteptowardspeace.com/wp-content/uploads/2020/10/27-min-1.jpg",
+    "desc": "Sal is one of the largest deciduous trees in India. The tree is native to the Indian sub-continent. The sal tree is hardly leafless. It is said that the tree provides good quality timber. Interestingly, the sal tree is worshipped by Hindus and Buddhists.",
+    "sanskritName": "shall"
+  }
+]

@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+.container {
+    margin: 0 100px 0 100px;
+}
+
+button {
+    margin: 5px;
+    padding: 10px;
+    font-size: medium;
+    cursor: pointer;
+}
+
+.d-flex {
+    display: flex;
+    gap: 6px;
+}
