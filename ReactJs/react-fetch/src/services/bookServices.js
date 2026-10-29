@@ -1,6 +1,6 @@
 export const getBooks = async () => {
     try {
-        const response = await fetch("https://6adf7ca18e42963c8d5e0607.mockapi.io/api/v1/books");
+        const response = await fetch(import.meta.env.VITE_API);
         if (!response.ok) {
             throw new Error(`HTTP error! Status: ${response.status}`)
         }
@@ -15,7 +15,7 @@ export const getBooks = async () => {
 
 export const saveBook = async (book) => {
     try {
-        const response = await fetch("https://6adf7ca18e42963c8d5e0607.mockapi.io/api/v1/books", {
+        const response = await fetch(import.meta.env.VITE_API, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
